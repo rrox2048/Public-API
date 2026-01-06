@@ -28,7 +28,7 @@
 
 适合：只想要稳定解析、不想长期维护脚本的站长。
 
-在线测试：你可以在 https://api.videofetcher.net/ 进行测试（示例域名）。
+在线测试：你可以在 https://api.videofetcher.net/ 进行测试（免费的，直接测就行，测试又不需要付出什么）。
 
 ---
 
@@ -88,8 +88,7 @@
   "title": "",
   "proxyInfo": {
     "ip": "89.185.27.9",
-    "countryCode": "HK",
-    "countryName": "香港"
+
   },
   "upload_date": "",
   "uploader": "",
@@ -119,7 +118,6 @@
 | headers     | Object  | 否   | 请求头信息，可能包含 cookie 等数据                                    |
 | re_url      | String  | 是   | 原始视频 URL                                                          |
 | title       | String  | 否   | 视频标题                                                              |
-| proxyInfo   | Object  | 否   | 代理服务器信息（包含 IP、国家代码），为空时可尝试切换代理             |
 | upload_date | String  | 否   | 上传日期                                                              |
 | uploader    | String  | 否   | 上传者名称                                                            |
 | url_list    | Array   | 是   | 视频下载列表（数组）                                                   |
@@ -211,6 +209,7 @@ curl -X POST 'https://api.obtaindown.com/obApi/api/analysis' \
 ## 联系方式
 
 如需进阶/定制服务或商业合作，请通过项目主页或仓库 issue 联系我们。
+api网站地址：https://api.videofetcher.net
 
 
 ---
